@@ -1,0 +1,4 @@
+text -> #3f3d56
+button -> #ffd700
+background -> #e0e0e4
+

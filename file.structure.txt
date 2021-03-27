@@ -1,0 +1,38 @@
+● src 
+● -- ● app
+|    |-- store.js
+|
+● -- ● components
+|    | -- ● Login  
+|       |-- index.component.js
+|       |-- LoginForm.component.js 
+|    | -- ● Reset  
+|       |-- index.component.js
+|       |-- ResetForm.component.js 
+|
+● -- ● slices
+|    |--Reset.slice.js
+|    |--Login.slice.js
+|
+● -- ● layouts
+|    
+● -- ● hooks
+|    |-- UseForm.hook.js
+|
+● -- ● utils
+|
+● -- ● controls
+|    |-- Control.control.js (parent)
+|    |-- Input.control.js
+|    |-- Button.control.js
+|    |-- ActionButton.control.js
+|    |-- Select.control.js 
+|    |-- Radio.control.js
+|    |-- Input.control.js 
+|
+● -- ● api
+|    |-- index.api.js
+|    |-- Password.api.js
+|    |-- User.api.js
+
+
