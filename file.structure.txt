@@ -3,21 +3,36 @@
 |    |-- store.js
 |
 ● -- ● components
-|    | -- ● Login  
+|    | -- ● main  
+|       |-- MainLayout.component.js (contain children)
+|    | -- ● sidebar  
+|       |-- Sidebar.component.js
+|       |-- Logout.component.js
+|    | -- ● auth  
 |       |-- index.component.js
-|       |-- LoginForm.component.js 
+|       |-- LoginForm.component.js
+|       |-- verify.component.js
 |    | -- ● Reset  
 |       |-- index.component.js
 |       |-- ResetForm.component.js 
-|
-● -- ● slices
+|    | -- ● dashboard  
+|       |-- index.component.js
+|       |-- Data.component.js
+|       |-- Graph.component.js
+|    | -- ● results  
+|       |-- index.component.js
+|       |-- Result.component.js
+|       |-- UpdateResult.component.js
+|       |-- EditResult.component.js
+|    |.........(offices, locations, usersmgt, parties)
+● -- ● slices (redux)
 |    |--Reset.slice.js
 |    |--Login.slice.js
-|
-● -- ● layouts
 |    
 ● -- ● hooks
 |    |-- UseForm.hook.js
+|
+● -- ● route
 |
 ● -- ● utils
 |

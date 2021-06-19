@@ -1,5 +1,6 @@
 import React from 'react';
 import { SidebarData } from './SidebarData';
+import Button from '@material-ui/core/Button';
 import './Sidebar.css';
 
 export const Sidebar = () => {

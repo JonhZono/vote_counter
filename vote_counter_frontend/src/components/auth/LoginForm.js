@@ -6,7 +6,7 @@ import { InputAdornment, makeStyles } from '@material-ui/core';
 import PhoneIcon from '@material-ui/icons/Phone';
 
 const initialValue = {
-  phoneNumber: '093849384',
+  phone: '093849384',
 };
 const useStyles = makeStyles(() => ({
   forgot: {
@@ -30,9 +30,9 @@ export const LoginForm = () => {
   //const history = useHistory();
   const formValidation = (fieldValues = values) => {
     let temp = { ...errors };
-    if ('phoneNumber' in fieldValues) {
-      temp.password =
-        fieldValues.phoneNumber.length >= 9
+    if ('phone' in fieldValues) {
+      temp.phone =
+        fieldValues.phone.length >= 9
           ? ''
           : 'Password must be at least 9 characters';
     }
@@ -59,11 +59,11 @@ export const LoginForm = () => {
   return (
     <Form onSubmit={handleSubmit}>
       <Controls.Input
-        name='phoneNumber'
+        name='phone'
         label='Enter Phone Number'
-        value={values.phoneNumber}
+        value={values.phone}
         onChange={handleInputChange}
-        error={errors.phoneNumber}
+        error={errors.phone}
         InputProps={{
           startAdornment: (
             <InputAdornment position='start'>
